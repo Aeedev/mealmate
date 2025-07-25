@@ -1,0 +1,98 @@
+/*
+  Mealmate by Adriana
+  All rights reserved © 2025
+*/
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fef9f4;
+  margin: 0;
+  padding: 2rem;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff5eb;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #d2691e;
+}
+
+.input-section {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #ffa07a;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff7f50;
+}
+
+#search-results, #meal-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+#search-results li, #meal-list li {
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background: #fff;
+  border-left: 4px solid #ffa07a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-btn, .remove-btn {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background-color: #ff6b6b;
+}
+
+.add-btn:hover {
+  background-color: #388e3c;
+}
+
+.remove-btn:hover {
+  background-color: #e63946;
+}
+
+.totals {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #888;
+}
