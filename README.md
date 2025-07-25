@@ -1,6 +1,8 @@
 # 🍽️ MealMate
 
-**MealMate** is a simple, responsive, and offline-friendly web app that helps users **track calories and protein** by selecting common foods. It’s lightweight, fast, and built entirely with **HTML, CSS, and JavaScript** — no backend, frameworks, or APIs involved.
+**MealMate** is a simple calorie and protein tracker built using **HTML, CSS, and JavaScript**. Users can search for foods from a predefined local list, add them to their meal, and view the total calories and protein for their current meal — all without using any backend or external APIs.
+
+This project was built to showcase clean UI, DOM manipulation, and responsive design with no frameworks or dependencies.
 
 ---
 
@@ -9,22 +11,22 @@
 ### 🏠 Landing Page
 ![Landing Page](screenshot-landing.png)
 
-### 🔍 Food Search Bar
+### 🔍 Food Search
 ![Search](screenshot-search.png)
 
 ### ➕ Add to Meal
-![Add Meal](screenshot-add-meal.png)
+![Add to Meal](screenshot-add-meal.png)
 
 ---
 
-## 🚀 Features
+## ✅ Features
 
-- 🔍 Real-time search from a local food list
-- ➕ Add/remove items from your meal
-- 📊 Live calorie & protein total updates
-- 🧾 Clean and responsive design for mobile & desktop
-- 🔌 Works 100% offline — no internet required
-- ⚡ No external libraries, frameworks, or APIs
+- 🔍 Search for foods from a local JavaScript array
+- ➕ Add selected foods to your current meal
+- ❌ Remove items from the meal list
+- 📊 See updated total calories and protein instantly
+- 🖥️ Works on desktop and mobile browsers
+- 🔌 Fully offline — no internet or server required
 
 ---
 
@@ -32,9 +34,33 @@
 
 - HTML5  
 - CSS3  
-- JavaScript (ES6)
+- JavaScript (Vanilla)
 
 ---
 
-## 📁 File Structure
+## 📁 Folder Structure
 
+mealmate/
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+├── screenshot-landing.png
+├── screenshot-search.png
+└── screenshot-add-meal.png
+
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Try MealMate Live](https://aeedev.github.io/mealmate/)
+
+> Works best in modern browsers like Chrome, Firefox, and mobile Safari.
+
+---
+
+## © License
+
+**MealMate by Adriana** 🍽️  
+© 2025 — All rights reserved.
