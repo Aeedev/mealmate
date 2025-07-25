@@ -1,19 +1,30 @@
-# 🍳 MealMate
+# 🍽️ MealMate
 
-**MealMate** is a simple, offline-friendly web app that helps users **track calories and protein** by adding foods to their virtual meal. Built using HTML, CSS, and JavaScript — no frameworks, no backend, no APIs required!
+**MealMate** is a simple, responsive, and offline-friendly web app that helps users **track calories and protein** by selecting common foods. It’s lightweight, fast, and built entirely with **HTML, CSS, and JavaScript** — no backend, frameworks, or APIs involved.
 
-![screenshot](screenshot.png)
+---
+
+## 📸 Screenshots
+
+### 🏠 Landing Page
+![Landing Page](screenshot-landing.png)
+
+### 🔍 Food Search Bar
+![Search](screenshot-search.png)
+
+### ➕ Add to Meal
+![Add Meal](screenshot-add-meal.png)
 
 ---
 
 ## 🚀 Features
 
-- 🔍 Searchable food list (local array, no API)
-- ➕ Add items to a meal list
-- ❌ Remove items anytime
-- 📊 Real-time update of calories and protein totals
-- 📱 Clean and mobile-friendly layout
-- 🔐 Fully offline and open-source
+- 🔍 Real-time search from a local food list
+- ➕ Add/remove items from your meal
+- 📊 Live calorie & protein total updates
+- 🧾 Clean and responsive design for mobile & desktop
+- 🔌 Works 100% offline — no internet required
+- ⚡ No external libraries, frameworks, or APIs
 
 ---
 
@@ -21,10 +32,9 @@
 
 - HTML5  
 - CSS3  
-- JavaScript (ES6)  
-- No external libraries or dependencies
+- JavaScript (ES6)
 
 ---
 
-## 📂 File Structure
+## 📁 File Structure
 
